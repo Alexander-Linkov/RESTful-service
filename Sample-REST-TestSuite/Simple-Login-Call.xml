@@ -98,4 +98,5 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
     <con:status>NONE</con:status>
     <con:properties/>
   </con:breakPoints>
+  <con:tagId>11c74c51-d1df-4d33-940c-13298b785ca0</con:tagId>
 </con:testCase>

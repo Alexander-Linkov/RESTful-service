@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="333b3b92-bc99-4628-afcb-90672b2992ea" created="2.7.0" activeEnvironment="Default environment" name="REST Sample Project" resourceRoot="" updated="3.4.0-AT" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="333b3b92-bc99-4628-afcb-90672b2992ea" created="2.7.0" activeEnvironment="Default environment" name="REST Sample Project" resourceRoot="" updated="3.6.0" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
   <con:description>Sample Projects bases on a virtualized REST service. Please make sure that port 8084 is available on your local machine or you can update the virtual API under the serviceV tool to reflect an open port on your system. You will also have to update the ports on the tests to reflect
 the same ports on the virtual service.</con:description>
   <con:settings>
@@ -13,7 +13,6 @@ the same ports on the virtual service.</con:description>
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
-  <con:reporting/>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to ReadyAPI functional tests
@@ -44,5 +43,14 @@ the same ports on the virtual service.</con:description>
 // fos.close()</con:script>
   </con:eventHandlers>
   <con:authRepository/>
-  <con:tags/>
+  <con:tags>
+    <con:tag>
+      <con:id>11c74c51-d1df-4d33-940c-13298b785ca0</con:id>
+      <con:name>TestCase tag</con:name>
+    </con:tag>
+    <con:tag>
+      <con:id>7e741956-365b-4cda-bbe9-5d77ce47b079</con:id>
+      <con:name>TestSuite tag</con:name>
+    </con:tag>
+  </con:tags>
 </con:soapui-project>
